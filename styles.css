@@ -1,0 +1,368 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d7e3ef;
+    color:#3e00c5;
+    line-height: 2;
+    
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 255, 26, 0.851);
+}
+
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #8991af;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #495057;
+}
+header {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-content h1 span {
+    color: white;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #343a40;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background-color: #e0a800;
+}
+
+#about {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    color: #6c757d;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-card {
+    text-align: center;
+    width: 200px; 
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(208, 9, 9, 0.87);
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgb(226, 8, 8);
+}
+
+.skill-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+   
+    border-radius: 50%; 
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-image {
+    transform: scale(1.1); 
+}
+
+.skill-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.skill-card p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+#contact .socials {
+    margin-top: 20px;
+}
+
+#contact .socials a {
+    color: #4CAF50;
+    margin: 0 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact .socials a:hover {
+    color: #333;
+}
+
+#projects {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(7, 56, 218, 0.996);
+    transition: transform 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 20px;
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.project-card p {
+    padding: 0 20px 20px;
+    color: #6c757d;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+#resume {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#resume h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#contact {
+    padding: 50px 0;
+    background-color: #f5f5f5; 
+    text-align: center;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.form-group label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.form-group textarea {
+    resize: vertical; 
+}
+
+.btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+@media (max-width: 600px) {
+    #contact h2 {
+        font-size: 2em;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+    }
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #ffc107;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #e0a800;
+}

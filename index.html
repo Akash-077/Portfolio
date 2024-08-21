@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    
+        <ul class="nav-links">
+            <li><a href="#about" class="cta">About</a></li>
+            <li><a href="#skills" class="cta">Skills</a></li>
+            <li><a href="#projects" class="cta">Projects</a></li>
+            <li><a href="#resume" class="cta">Resume</a></li>
+            <li><a href="#contact" class="cta">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-content">
+        <h1>Hello, I'm <span>AKASH</span></h1>
+        <p></p>
+        <a href="#contact" class="cta">Get In Touch</a>
+    </div>
+</header>
+
+<style>
+    .header {
+        background-image: url("backgr.webp");
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        color: white; 
+        padding: 20px; 
+    }
+    .header-content {
+        text-align: center; 
+        padding: 50px 0; 
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+    .nav-links li {
+        margin: 0 10px;
+    }
+    .cta {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <img src="PIC PORTFOLIO_.jpg" alt="Akash" class="profile-img">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I'm a passionate web developer with a knack for creating responsive, user-friendly websites. With experience in HTML, CSS, JavaScript, and modern frameworks, I turn ideas into engaging digital experiences. Whether it's a simple landing page or a complex web application, I aim to deliver high-quality code and design that meets user needs and client goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="html skill.png" alt="HTML" class="skill-image">
+                <h3>HTML</h3>
+                <p>Crafting the structure of the web with HTML.</p>
+            </div>
+            <div class="skill-card">
+                <img src="css skill.png" alt="CSS" class="skill-image">
+                <h3>CSS</h3>
+                <p>Styling and designing websites with CSS.</p>
+            </div>
+            <div class="skill-card">
+                <img src="javascript.png" alt="JavaScript" class="skill-image">
+                <h3>JavaScript</h3>
+                <p>Bringing interactivity and functionality with JavaScript.</p>
+            </div>
+            <div class="skill-card">
+                <img src="react skill.png" alt="React" class="skill-image">
+                <h3>React</h3>
+                <p>Efficiently build dynamic and interactive UIs with React’s component-based architecture</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="QUIZ_GAME.png" alt="Project 1">
+                    <h3>QuizFrenzy</h3>
+                    <p>Interactive Quiz App for mastering web development fundamentals</p>
+                </div>
+                <div class="project-card">
+                    <img src="PUZZLE GAME.png" alt="Project 2">
+                    <h3>Pixel Paws Puzzle</h3>
+                    <p>Rearrange image tiles to reveal an adorable pug in this fun puzzle game</p>
+                </div>
+                <div class="project-card">
+                    <img src="calculator.jpg" alt="Project 3">
+                    <h3>SleekCalc </h3>
+                    <p>A stylish calculator built using only HTML and CSS.</p>
+                </div>
+                <div class="project-card">
+                    <img src="WEATHER...png" alt="Project 4">
+                    <h3>SkyCast</h3>
+                    <p>Effortless weather insights at your fingertips</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="resume.pdf" class="btn" download>Download My Resume</a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">LinkedIn</a>
+                <a href="#" class="social-icon">GitHub</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
